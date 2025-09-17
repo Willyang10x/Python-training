@@ -30,4 +30,11 @@ print(f"Lista embaralhada: {atrizes}")
 sorteada = random.choice(atrizes)
 print(f"Atriz sorteada: {sorteada}")
 """
+"""
+atrizes = ["Ana", "Julia", "juca"]
+atrizes.pop(0)
+atrizes.insert(0,"Ana julia")
+del atrizes [2]
 
+print(atrizes)
+"""
