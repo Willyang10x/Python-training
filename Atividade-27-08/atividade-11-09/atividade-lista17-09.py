@@ -69,3 +69,13 @@ print(f"Nadador com pior tempo: {pior_nadador} ({pior_tempo:.2f} s)")
 print(f"Tempo médio dos nadadores: {media:.2f} s")
 """
 
+"""
+import random
+
+nomeRifa = ["Ana", "Julia", "juca"]
+random.shuffle(nomeRifa)
+print(f"Lista embaralhada: {nomeRifa}")
+sorteada = random.choice(nomeRifa)
+print(f"Voce foi sorteada: {sorteada}")
+"""
+
