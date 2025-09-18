@@ -1,6 +1,17 @@
-termo = int(input("Digite o número de termos: "))
+"""termo = int(input("Digite o número de termos: "))
 quantidade_termo = int(input("Digite a quantidade de termos: "))
 razao = int(input("Digite a razão: "))
-ultimo_termo = termo + (quantidade_termo - 1) * razao
-for i in range(termo, ultimo_termo + 1, razao):
-    print(i, end=" ")
+
+for i in range(quantidade_termo):
+    termo_atual = termo + i * razao
+    print(termo_atual, end=" ")
+
+
+termo = int(input("Digite o primeiro termo: "))
+quantidade_termo = int(input("Digite a quantidade de termos: "))
+razao = float(input("Digite a razão: "))
+
+
+for i in range(quantidade_termo):
+    termo_atual = termo * (razao ** i)
+    print(f"{termo_atual:.2f}", end=" ")"""
