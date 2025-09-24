@@ -108,3 +108,10 @@ else:
     
     print(f"\n\nA soma dos termos é: {soma}")"""
 
+"""import random
+
+nomeRifa = ["Ana", "Julia", "juca"]
+random.shuffle(nomeRifa)
+print(f"Lista embaralhada: {nomeRifa}")
+sorteada = random.choice(nomeRifa)
+print(f"Voce foi sorteada: {sorteada}")"""
