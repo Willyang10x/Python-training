@@ -46,3 +46,43 @@ print(contatos.get("@maria"))
 não tem na lista retorna "none".
 """
 
+"""estoque = {
+    "Mouse":1,
+    "Teclado":4
+
+}
+
+estoque.update({"HUB USB":3})
+estoque.update({"Teclado":1})
+
+print(estoque)"""
+
+"""cidades = {
+    "São Paulo":"SP",
+    "Areial":"PB",
+    "Santa Catarina": "SC",
+    "João Pessoa": "PB"
+}
+
+print(len(cidades))"""
+
+"""agenda = {"Carlos":"04904445","Elsisa":"442444"}
+
+if "Carlo" in agenda:
+    print(f"{agenda} Ele está na agenda!")
+else:
+    print(f"Não encontrado!")"""
+
+"""notas = {"Artes":10,"Português":7,"Inglês":5}
+
+print(notas.keys())
+print(notas.values())"""
+
+"""livros = {
+    "pequeno":"Denys",
+    "principe":"paraiba",
+    "Harry":"Potter"
+          
+}
+for titulo, autor in livros.items():
+    print(f"Titulo: {titulo}\nAutor: {autor}")"""
